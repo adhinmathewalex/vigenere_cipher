@@ -99,7 +99,7 @@ def main_screen():
     # icon
     image_icon = PhotoImage(file="key.png")
     screen.iconphoto(False, image_icon)
-    screen.title("PctApp")
+    screen.title("CipherApp")
 
     def reset():
         code.set("")
